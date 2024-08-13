@@ -1,0 +1,49 @@
+:root{
+    /* --bg :rgb(216, 217, 172); */
+    /* --clr :rgb(101, 99, 99) ; */
+    --bg : #000;
+    --clr :#fff;
+}
+body{
+    font-family: "Courier New", Courier, monospace;
+    background-color: var(--bg);
+    overflow: hidden;
+    color: var(--clr);
+}
+div{
+    /* border:red solid 2px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+input{
+    height: 35px;
+    width: 75px;
+    font-size:larger;
+    text-align: center;
+    background-color: var(--bg);
+    color: var(--clr);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+input:focus{
+outline: none;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 4px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(84, 83, 83);
+}
