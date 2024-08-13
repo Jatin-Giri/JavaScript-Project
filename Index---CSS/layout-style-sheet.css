@@ -33,6 +33,7 @@ header{
   transition: scale .2s ease-in-out;
   height: 300px;
   border-radius: 20px;
+  position: relative;
 }
 .box:hover{
   scale: 1.05;
@@ -46,6 +47,9 @@ header{
   padding: 5px 10px;
   border-radius: 20px;
   transition: all .4s ease-in-out;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 20px;
 }
 .box a:hover{
   background-color: #fff;
@@ -53,5 +57,6 @@ header{
   scale: 1.05;
 }
 .box img{
+  border-radius: 20px;
   width: 200px;
 }
